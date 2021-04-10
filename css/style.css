@@ -1,0 +1,48 @@
+.encabezado{
+    background-color: #D7DCDF;
+    padding-top: 1.5%;
+}
+
+.cuerpo{
+    font-family: 'Times New Roman', Times, serif;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+
+h1{
+    background-color: #85929E;
+    text-align: center;
+    color: #AED6F1;
+    
+}
+
+h2{
+    background-color: #85929E;
+    color: #F6DDCC;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+h3{
+    background-color: #85929E ;
+    color: #AED6F1;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
