@@ -24,25 +24,22 @@
     border-radius: 50%;
 }
 
-
-h1{
+h1, h2, h3 {
     background-color: #85929E;
-    text-align: center;
-    color: #AED6F1;
-    
 }
 
-h2{
-    background-color: #85929E;
-    color: #F6DDCC;
-    font-weight: 100;
+h2, h3{
     font-size: 20px;
+     font-weight: 100;
 }
 
-h3{
-    background-color: #85929E ;
+h1, h3{
     color: #AED6F1;
     text-align: center;
-    font-weight: 100;
-    font-size: 20px;
 }
+
+h2{   
+    color: #F6DDCC;   
+}
+
+/* te mando otra manera de escribir el codigo, un poquito mas optimizado, tené en cuenta que si comparten el mismo estilo se los puede asociar */
