@@ -1,0 +1,33 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.banner{
+    background-image: url(../img/lemon-pie2.jpg);
+    background-size: cover;
+    height: 343px;
+    color:#ffffff
+}
+
+h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+.fas{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
