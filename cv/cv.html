@@ -6,18 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./img/foto.jpeg">
+ <!--   <link rel="stylesheet" href="./img/foto.jpeg"> recordá que las imagenes se linkean directo dentro de la etiqueta img -->
 </head>
 
-<header>
-    <section class="encabezado">
+<body>
+    <header class="encabezado"> <!-- el header va dentro de la etiqueta body -->
+        <!-- Header ya es una etiqueta semantica, no haria falta el section -->
         <img class="imagen" src="./img/fotoCV.PNG">
         <h1>CURRICULUM VITAE DE DANIELA GÓMEZ</h1>
-    </section>
-</header>
-
-<body>
-
+    </header>
     <section class="cuerpo">
         <h2>DATOS PERSONALES</h2>
         <ul>
@@ -56,10 +53,11 @@
     </section>
 
     <footer>
-        <h3>0000-KAREN GÓMEZ- 
+        <div> <!-- Recorda que dentro de un H3 va un titulo, acá tenes varios contenidos por lo que te recomiendo un div -->
+            <span> 0000-KAREN GÓMEZ- </span>
             <a href="https://www.linkedin.com/in/karen-daniela-g%C3%B3mez-aldana-9a37b61b8/"><img class="logo" src="./img/logo_linke.PNG"></a>
             <a href="https://www.instagram.com"><img class="logo" src="./img/logo_insta.png"></a>
-        </h3>
+        </div>
     </footer>
 
 </body>
